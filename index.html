@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Specialist | Портфолио</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- ===== Background Orbs ===== -->
+    <div class="bg-orbs">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
+
+    <!-- ===== Navigation ===== -->
+    <nav class="navbar" id="navbar" role="navigation">
+        <div class="container">
+            <a href="#" class="logo">&lt;<span>dev</span>/&gt;</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="active">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">✦ Доступен для сотрудничества</span>
+                <h1>
+                    Привет, я <br />
+                    <span class="highlight">Светлана</span>
+                </h1>
+                <div class="typewriter-wrapper">
+                    <span id="typewriter"></span>
+                    <span class="cursor"></span>
+                </div>
+                <p>
+                    Python-разработчик с опытом построения надёжных бэкенд-систем.
+                    Владею фронтендом, базами данных и люблю решать сложные задачи.
+                </p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn btn-primary">Связаться</a>
+                    <a href="#skills" class="btn btn-outline">Мои навыки</a>
+                </div>
+                <div class="social-strip">
+                    <a href="#" target="_blank" aria-label="GitHub">
+                        <span class="social-icon">🐙</span>
+                    </a>
+                    <a href="#" target="_blank" aria-label="LinkedIn">
+                        <span class="social-icon">🔗</span>
+                    </a>
+                    <a href="#" target="_blank" aria-label="Telegram">
+                        <span class="social-icon">✈️</span>
+                    </a>
+                    <a href="#" target="_blank" aria-label="Email">
+                        <span class="social-icon">✉️</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-label">✦ Обо мне</span>
+                <h2 class="section-title">
+                    Кто я и <span class="highlight">что я делаю</span>
+                </h2>
+                <p class="section-desc">
+                    Строю цифровые продукты, которые решают реальные задачи.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text fade-up delay-1">
+                    <p>
+                        Я <strong>Python-разработчик</strong> с бэкграундом в веб-технологиях.
+                        Специализируюсь на создании масштабируемых бэкенд-сервисов, REST API
+                        и интеграциях. Работаю с <strong>Django</strong>, <strong>FastAPI</strong>,
+                        <strong>PostgreSQL</strong> и современными инструментами разработки.
+                    </p>
+                    <p>
+                        Помимо бэкенда, уверенно владею фронтендом: <strong>HTML</strong>,
+                        <strong>CSS</strong>, <strong>JavaScript</strong> — чтобы понимать
+                        полный цикл разработки и эффективно взаимодействовать с командой.
+                    </p>
+                    <p>
+                        Постоянно учусь, слежу за трендами и применяю лучшие практики
+                        в своей работе. Люблю чистый код, автоматизацию и открытые
+                        технологии.
+                    </p>
+                </div>
+
+                <div class="about-stats fade-up delay-2">
+                    <div class="stat-card">
+                        <div class="number">5+</div>
+                        <div class="label">Лет опыта</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">20+</div>
+                        <div class="label">Проектов</div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" style="background: rgba(255,255,255,0.01);">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-label">✦ Навыки</span>
+                <h2 class="section-title">
+                    Мой <span class="highlight">технологический стек</span>
+                </h2>
+                <p class="section-desc">
+                    Инструменты и технологии, с которыми я работаю ежедневно.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Python -->
+                <div class="skill-card fade-up delay-1">
+                    <span class="icon">🐍</span>
+                    <div class="name">Python</div>
+                    <div class="level">Продвинутый</div>
+                    <div class="bar"><div class="fill cyan" data-width="92"></div></div>
+                </div>
+
+                <!-- HTML -->
+                <div class="skill-card fade-up delay-2">
+                    <span class="icon">🌐</span>
+                    <div class="name">HTML5</div>
+                    <div class="level">Продвинутый</div>
+                    <div class="bar"><div class="fill orange" data-width="88"></div></div>
+                </div>
+
+                <!-- CSS -->
+                <div class="skill-card fade-up delay-3">
+                    <span class="icon">🎨</span>
+                    <div class="name">CSS3</div>
+                    <div class="level">Продвинутый</div>
+                    <div class="bar"><div class="fill blue" data-width="85"></div></div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-card fade-up delay-4">
+                    <span class="icon">⚡</span>
+                    <div class="name">JavaScript</div>
+                    <div class="level">Продвинутый</div>
+                    <div class="bar"><div class="fill purple" data-width="80"></div></div>
+                </div>
+
+                <!-- SQL -->
+                <div class="skill-card fade-up delay-5">
+                    <span class="icon">🗄️</span>
+                    <div class="name">SQL</div>
+                    <div class="level">Продвинутый</div>
+                    <div class="bar"><div class="fill green" data-width="85"></div></div>
+                </div>
+
+                <!-- Django / FastAPI (дополнительно) -->
+                <div class="skill-card fade-up delay-1">
+                    <span class="icon">🚀</span>
+                    <div class="name">Django / FastAPI</div>
+                    <div class="level">Опытный</div>
+                    <div class="bar"><div class="fill pink" data-width="78"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-label">✦ Контакты</span>
+                <h2 class="section-title">
+                    Давайте <span class="highlight">обсудим проект</span>
+                </h2>
+                <p class="section-desc">
+                    Всегда открыт к новым возможностям и интересным задачам.
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info fade-up delay-1">
+                    <p>
+                        Если у вас есть идея, проект или просто хотите поздороваться —
+                        напишите мне. Я отвечу в течение 24 часов.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <div class="info">
+                            <div class="label">Email</div>
+                            <div class="value"><a href="mailto:alex@example.com">svetlana09p@yandex.ru</a></div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">📍</div>
+                        <div class="info">
+                            <div class="label">Локация</div>
+                            <div class="value">Санкт-Петербург, Россия (удалённо)</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">💬</div>
+                        <div class="info">
+                            <div class="label">Telegram</div>
+                            <div class="value"><a href="#" target="_blank">@jhvvhkv</a></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <!-- <div class="contact-form fade-up delay-2">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Иван Иванов" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="ivan@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" placeholder="Расскажите о вашем проекте..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить →</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; 2026 Светлана &mdash; Сделано с <span class="heart">❤</span> и Python
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== JavaScript ===== -->
+
+
+</body>
+</html>
